@@ -3,6 +3,11 @@ public class SmartTv {
     int canal = 5;
     int volume = 10;
 
+    public void mudarCanal(int novoCanal) {
+        canal = novoCanal;
+        System.out.println("Canal: " + canal);
+    }
+
     public void ligar() {
         ligada = true;
     }

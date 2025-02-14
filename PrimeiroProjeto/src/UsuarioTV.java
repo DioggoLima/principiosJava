@@ -17,6 +17,9 @@ public class UsuarioTV {
 
         System.out.println(smartTv.canal);
 
+        smartTv.mudarCanal(4);
+        System.out.println(smartTv.canal);
+
         smartTv.aumentarVolume();
         smartTv.aumentarVolume();
 
